@@ -1,0 +1,2 @@
+class NewSpare < ApplicationRecord
+end

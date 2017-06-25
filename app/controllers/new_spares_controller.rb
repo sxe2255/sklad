@@ -1,0 +1,5 @@
+class NewSparesController < ApplicationController
+
+	
+
+end

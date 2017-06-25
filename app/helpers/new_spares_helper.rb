@@ -1,0 +1,2 @@
+module NewSparesHelper
+end
