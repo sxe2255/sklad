@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class SpareTest < ActiveSupport::TestCase
+class AtmTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end

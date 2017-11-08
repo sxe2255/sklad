@@ -1,0 +1,15 @@
+<h1>ATMS</h1>
+
+
+<% @atms.each do |atms|%>
+
+<tr>
+	<td><%= atms.id %></td>
+	<td><%= atms.name %></td>
+
+
+</tr>
+
+<% end %>
+
+<a class="btn btn-default" href="/atms/new" role="button">Link</a>

@@ -1,2 +1,0 @@
-class Spare < ApplicationRecord
-end

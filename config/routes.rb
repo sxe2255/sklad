@@ -1,9 +1,11 @@
 Rails.application.routes.draw do
+  get 'atms/new'
+
   get 'welcome/index'
   resources :spares
   resources :newspares
 
-  
+  resources :atms
 
   root 'welcome#index'
 
