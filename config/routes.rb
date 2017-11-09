@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   resources :newspares
 
   resources :atms
-
+  resources :clients
   root 'welcome#index'
 
   

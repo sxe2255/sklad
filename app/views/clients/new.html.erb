@@ -1,0 +1,16 @@
+<h1>Clients#new</h1>
+<p>Find me in app/views/client/new.html.erb</p>
+
+
+<div class="row">
+  <div class="span6 offset3">
+    <%= form_for(@client) do |f| %>
+
+      <%= f.label :name %>
+      <%= f.text_field :name %>
+
+
+      <%= f.submit "Create my account", class: "btn btn-large btn-primary" %>
+    <% end %>
+  </div>
+</div>
