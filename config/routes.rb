@@ -7,6 +7,7 @@ Rails.application.routes.draw do
 
   resources :atms
   resources :clients
+  resources :repairs
   root 'welcome#index'
 
   

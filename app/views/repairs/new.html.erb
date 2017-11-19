@@ -1,0 +1,26 @@
+<h1>Добавление оборудования</h1>
+
+
+
+
+<div class="row">
+  <div class="span6 offset3">
+    <%= form_for(@repair) do |f| %>
+
+      <%= f.label :sn %>
+      <%= f.text_field :sn %>
+	  
+	  <%= f.label :fauilt %>
+      <%= f.text_field :fauilt %>
+
+
+	  <%= f.label :request %>
+      <%= f.text_field :request %>
+
+	  <%= f.label :date_coming %>
+      <%= f.text_field :date_coming %>
+
+      <%= f.submit "add fauilt", class: "btn btn-large btn-primary" %>
+    <% end %>
+  </div>
+</div>

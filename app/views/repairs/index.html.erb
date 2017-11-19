@@ -1,0 +1,69 @@
+<h1>Добавление оборудования</h1>
+
+
+
+
+<div class="row">
+  <div class="span6 offset3">
+    <%= form_for(@repair) do |f| %>
+
+      <%= f.label :sn %>
+      <%= f.text_field :sn %>
+    
+    <%= f.label :fauilt %>
+      <%= f.text_field :fauilt %>
+
+
+    <%= f.label :request %>
+      <%= f.text_field :request %>
+
+    <%= f.label :date_coming %>
+      <%= f.text_field :date_coming %>
+
+      <%= f.submit "add fauilt", class: "btn btn-large btn-primary" %>
+    <% end %>
+  </div>
+</div>
+
+
+
+
+<h1> Repairs - Ремонт оборудования </h1>
+
+<div class="container">
+  <div class="row">
+
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Serial number</th>
+      <th scope="col">fauilt</th>
+      <th scope="col">request</th>
+      <th scope="col">date_coming</th>
+      
+    </tr>
+  </thead>
+
+
+<% @repairs.each do |repairs|%>
+	<tbody>
+		<tr>
+			
+      <td><%= repairs.sn %></td>
+			<td><%= repairs.fauilt %></td>
+      <td><%= repairs.request %></td>
+      <td><%= repairs.date_coming %></td>
+      
+
+		</tr>
+	</tbody>
+
+
+<% end %>
+</table>
+<a type ="button" class="btn btn-primary" href="/repairs/new" role="button">Link</a>
+
+
+</div>
+</div>

@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  sn: MyText
+  fauilt: MyText
+  request: MyText
+  date_coming: MyText
+
+two:
+  sn: MyText
+  fauilt: MyText
+  request: MyText
+  date_coming: MyText
